@@ -1,0 +1,1 @@
+## This repository is dedicated for practising elementary programming and it's related concepts such as data structures and algorithms.
