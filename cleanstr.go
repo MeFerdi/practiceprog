@@ -10,13 +10,14 @@ func main() {
 		fmt.Println()
 		return
 	}
-	Args := os.Args[1]
 	var result string
+	Args := os.Args[1]
 	space := false
+
 	for i := 0; i < len(Args); i++ {
-		str := Args[i]
-		if str != ' ' || str != '\t' {
-			result += string(str)
+		char := Args[i]
+		if char != ' ' && char != '\t' {
+			result += string(char)
 			space = false
 		} else if !space {
 			result += " "
